@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="random_gun_drops"
+version="1.0.0"
+displayName="Random Gun Drops"
+description='''Every block you break can drop a random TACZ gun, including guns from TACZ addon gunpacks. Press M to open the settings menu.'''
+
+[[dependencies.random_gun_drops]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.random_gun_drops]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.random_gun_drops]]
+modId="tacz"
+mandatory=true
+versionRange="[1.0.0,)"
+ordering="AFTER"
+side="BOTH"
